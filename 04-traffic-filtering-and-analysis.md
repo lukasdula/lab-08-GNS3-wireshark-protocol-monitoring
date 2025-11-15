@@ -29,7 +29,6 @@ This chapter explains how Wireshark displays and analyses each protocol when fil
 | Windows-client | 192.168.50.11  |
 | Router (R1)    | 192.168.50.1   |
 
-<br><br>
 ## **4.2 Objectives**
 
 This chapter focuses on analysing protocol behaviour using Wireshark’s decoded protocol view and packet summary information.  
@@ -47,7 +46,6 @@ For each protocol, a display filter is applied and key structural fields are exa
     
 - Save and export protocol documentation to demonstrate clear packet interpretation, provide evidence of correct analysis, and support reproducibility in professional troubleshooting.
 
-<br><br>
 
 ## **4.3 Steps**
 
@@ -66,7 +64,6 @@ For each protocol, a display filter is applied and key structural fields are exa
 7. **Apply HTTP Filter and Analyse HTTP Traffic**
     
 8. **Save Capture and Export Protocol Outputs**
-
 
 <br><br>
 # 4.4 ARP Analysis
