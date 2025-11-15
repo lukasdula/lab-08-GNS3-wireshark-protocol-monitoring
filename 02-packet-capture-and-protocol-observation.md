@@ -7,10 +7,6 @@ Wireshark captures every packet that moves across the interface and shows it in 
 
 ![](images/Pasted%20image%2020251114034407.png)
 
-#### **Addressing Table**
-
-This overview lists the IP addresses used by all devices in this chapter. It helps maintain clarity during packet capture.
-
 
 
 ## Protocol Overview
@@ -25,6 +21,8 @@ This overview lists the IP addresses used by all devices in this chapter. It hel
 | **HTTP** | Hypertext Transfer Protocol       | Web protocol for client–server communication (GET requests and responses).             |
 
 
+
+#### **Addressing Table**
 
 | Device         | IP Address    |
 | -------------- | ------------- |
