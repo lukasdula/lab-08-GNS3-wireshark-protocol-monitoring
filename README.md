@@ -23,13 +23,13 @@ The objectives are:
 
 ## **Lab Structure**
 
-1. Network Setup and Service Configuration
+1. [Network Setup and Service Configuration](01-network-setup-and-service-configuration.md)
     
-2. Packet Capture and Protocol Observation
+2. [Packet Capture and Protocol Observation](02-packet-capture-and-protocol-observation.md)
     
-3. DHCP Troubleshooting
+3. [DHCP Troubleshooting](03-dhcp-troubleshooting.md)
     
-4. Traffic Filtering and Analysis
+4. [Traffic Filtering and Analysis](04-traffic-filtering-and-analysis.md)
     
 
 ## **Key Features**
