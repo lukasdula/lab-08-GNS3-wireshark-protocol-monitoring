@@ -386,4 +386,4 @@ This chapter provides a structured view of how core protocols behave when filter
 
 ---
 
-Next part: **Back to lab overview:** [README](README.md)
+**Back to lab overview:** [README](README.md)
