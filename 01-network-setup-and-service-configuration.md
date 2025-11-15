@@ -251,4 +251,6 @@ All connectivity tests succeed. The pings confirm that every device in the netwo
 
 This chapter establishes the complete foundational setup of the lab environment. The router is configured with its essential services, the clients receive their network settings through DHCP, and both HTTP and DNS are fully reachable from Xubuntu and Windows. Basic connectivity tests confirm that all devices communicate correctly across the LAN. With the network fully operational and verified, the environment is now ready for the next chapter focused on packet monitoring and protocol analysis in Wireshark.
 
+---
 
+Next part: [Packet Capture and Protocol Observation](02-packet-capture-and-protocol-observation.md)
