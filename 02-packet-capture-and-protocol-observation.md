@@ -11,11 +11,29 @@ Wireshark captures every packet that moves across the interface and shows it in 
 
 This overview lists the IP addresses used by all devices in this chapter. It helps maintain clarity during packet capture.
 
+
+
+# **Protocol Overview
+
+| Protocol | Full Name                         | Meaning / Simple Explanation                                                           |
+| -------- | --------------------------------- | -------------------------------------------------------------------------------------- |
+| **ARP**  | Address Resolution Protocol       | Maps an IP address to a MAC address so devices can communicate inside the LAN.         |
+| **DNS**  | Domain Name System                | Translates domain names (e.g., test.lab) into IP addresses.                            |
+| **ICMP** | Internet Control Message Protocol | Used for connectivity testing (ping), error messages, and basic diagnostics.           |
+| **UDP**  | User Datagram Protocol            | Fast, lightweight transport without acknowledgments. Used by DNS and similar services. |
+| **TCP**  | Transmission Control Protocol     | Reliable transport with handshake, acknowledgments, and ordered delivery.              |
+| **HTTP** | Hypertext Transfer Protocol       | Web protocol for client–server communication (GET requests and responses).             |
+
+
+
 | Device         | IP Address    |
 | -------------- | ------------- |
 | Xubuntu-client | 192.168.50.10 |
 | Windows-client | 192.168.50.11 |
 | Router (R1)    | 192.168.50.1  |
+
+
+
 
 ## **2.2 Steps**
 
@@ -69,6 +87,8 @@ After starting Wireshark, a list of available network interfaces appears. Each i
 ![](images/Pasted%20image%2020251114030452.png)
 
 
+
+
 ## **2.4 ARP Capture**
 
 ARP identifies the MAC address of a device inside the local network when the IP address is known. ARP packets appear only when a device does not have the required MAC address stored in its ARP cache. After the cache is filled, repeated pings no longer create new ARP requests until the cache expires.
@@ -108,6 +128,8 @@ ARP replies appear immediately after the request. They confirm the MAC address o
 >**Notes.:** ARP does not depend on ping. It appears automatically whenever a device needs the MAC address of another device. Ping can trigger ARP if the MAC address is unknown, but ARP also appears during normal network activity such as DNS, DHCP, or opening web pages.
 
 
+
+
 ## **2.5 DNS Capture (Xubuntu)**
 
 This section explains how DNS traffic is captured when a webpage is opened from the Xubuntu browser. DNS converts a hostname into an IP address, and Wireshark allows you to see both the query and the response directly.
@@ -136,6 +158,7 @@ After opening the test.lab page, DNS packets immediately appear in the capture. 
 > **Notes.:** Xubuntu generates the DNS request as soon as the hostname is used in the browser.  
 > The router acts as the DNS responder.  
 > DNS packets are easy to identify in the Protocol column (DNS).
+
 
 
 
@@ -175,6 +198,7 @@ A SPAN (port mirroring) configuration can be used to mirror other ports to Xubun
 
 
 
+
 ## **2.7 UDP Capture**
 
 This section shows how UDP traffic appears when Xubuntu resolves a domain name. DNS uses UDP by default, so opening a webpage triggers a DNS Query and DNS Response exchange that is visible in Wireshark.
@@ -205,6 +229,7 @@ Wireshark displays a DNS Query from Xubuntu to the router on UDP port 53, follow
 
 
 
+
 ## **2.8 TCP and HTTP Capture (Webpage Request)**
 
 This section shows how TCP and HTTP traffic appear when Xubuntu opens a webpage directly using the router’s IP address. This removes DNS from the process and produces a clean TCP and HTTP exchange.
@@ -231,6 +256,7 @@ Wireshark shows the TCP three-way handshake, followed by an HTTP GET request fro
 ### **TCP/HTTP Capture**
 
 ![](images/Pasted%20image%2020251114033247.png)
+
 
 
 ## **2.9 Conclusion** 
