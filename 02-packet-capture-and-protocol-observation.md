@@ -9,7 +9,7 @@ Wireshark captures every packet that moves across the interface and shows it in 
 
 
 
-## Protocol Overview
+### Protocol Overview
 
 | Protocol | Full Name                         | Meaning / Simple Explanation                                                           |
 | -------- | --------------------------------- | -------------------------------------------------------------------------------------- |
@@ -22,7 +22,7 @@ Wireshark captures every packet that moves across the interface and shows it in 
 
 
 
-#### **Addressing Table**
+### **Addressing Table**
 
 | Device         | IP Address    |
 | -------------- | ------------- |
