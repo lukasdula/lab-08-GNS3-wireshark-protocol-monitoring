@@ -13,7 +13,7 @@ This overview lists the IP addresses used by all devices in this chapter. It hel
 
 
 
-**# **Protocol Overview**
+**Protocol Overview**
 
 | Protocol | Full Name                         | Meaning / Simple Explanation                                                           |
 | -------- | --------------------------------- | -------------------------------------------------------------------------------------- |
