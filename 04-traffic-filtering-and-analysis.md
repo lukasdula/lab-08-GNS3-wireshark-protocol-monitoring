@@ -50,21 +50,21 @@ For each protocol, a display filter is applied and key structural fields are exa
 <br><br>
 ## **4.3 Steps**
 
-1. **Start Capture on ens3**
+1.  **Start Capture on ens3**
     
-2. **Apply ARP Filter and Analyse ARP Traffic**
+2.  **Apply ARP Filter and Analyse ARP Traffic**
     
-3. **Apply DNS Filter and Analyse DNS Traffic**
+3.  **Apply DNS Filter and Analyse DNS Traffic**
     
-4. **Apply ICMP Filter and Analyse ICMP Traffic**
+4.  **Apply ICMP Filter and Analyse ICMP Traffic**
     
-5. **Apply UDP Filter and Analyse UDP Traffic**
+5.  **Apply UDP Filter and Analyse UDP Traffic**
     
-6. **Apply TCP Filter and Analyse TCP Traffic**
+6.  **Apply TCP Filter and Analyse TCP Traffic**
     
-7. **Apply HTTP Filter and Analyse HTTP Traffic**
+7.  **Apply HTTP Filter and Analyse HTTP Traffic**
     
-8. **Save Capture and Export Protocol Outputs**
+8.  **Save Capture and Export Protocol Outputs**
 
 <br><br>
 # 4.4 ARP Analysis
