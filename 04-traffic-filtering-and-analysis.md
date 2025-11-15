@@ -47,7 +47,7 @@ For each protocol, a display filter is applied and key structural fields are exa
     
 - Save and export protocol documentation to demonstrate clear packet interpretation, provide evidence of correct analysis, and support reproducibility in professional troubleshooting.
 
-
+<br><br>
 
 ## **4.3 Steps**
 
@@ -68,7 +68,7 @@ For each protocol, a display filter is applied and key structural fields are exa
 8. **Save Capture and Export Protocol Outputs**
 
 
-<br>
+<br><br>
 # 4.4 ARP Analysis
 
 
@@ -117,7 +117,7 @@ The following table summarises the essential fields observed in the selected ARP
 The selected ARP packet demonstrates the standard ARP discovery process: a host broadcasts an ARP Request to learn the MAC address of the target IP. Only the essential Ethernet and ARP header fields are required to identify the device that initiated the request, the address being queried, and the broadcast nature of the frame. This confirms correct ARP functionality and provides a clear example of how ARP discovery appears inside Wireshark.
 
 
-
+<br><br>
 ## **4.5 DNS Analysis**
 
 This section focuses on observing DNS traffic filtered in Wireshark. The DNS display filter isolates only DNS frames, providing a clear view of how name resolution occurs between the client and the DNS server. The capture includes queries generated while opening **test.lab** in the Firefox browser on Xubuntu.
@@ -172,7 +172,7 @@ The DNS frame shows a standard name-resolution request. The client sends an IPv4
 
 
 
-
+<br><br>
 ## **4.6 ICMP Analysis**
 
 
@@ -221,7 +221,7 @@ The ICMP capture reflects standard ping behavior between the **Windows client (1
 
 
 
-
+<br><br>
 ## **4.7 UDP Packet Analysis**
 
 This section demonstrates how DNS behaves when a **non‑existent domain name is queried**. By intentionally entering an invalid domain (**test.labb**) in the Xubuntu browser, we can observe how the client repeatedly sends DNS queries over UDP without receiving any response. This scenario provides a clear view of typical "no‑response" DNS behavior and how UDP‑based DNS retries appear inside Wireshark.
@@ -267,7 +267,7 @@ This section provides a clear breakdown of the selected UDP DNS frame (Frame 211
 The capture shows typical **no‑response DNS behavior**. The client repeatedly sends DNS queries for the invalid domain **test.labb**, but the DNS server provides no replies. All layers (Ethernet, IPv4, UDP, DNS) display valid packet structure, yet the absence of any response records confirms that the domain does not exist or the server cannot resolve it. This demonstrates how Wireshark captures and visualizes failed DNS resolution attempts over UDP.
 
 
-
+<br><br>
 ## 4.8 **TCP and HTTP Traffic**
 
 The list below shows all captured TCP and HTTP packets during a client request from 192.168.50.10 (Xubuntu client) to 192.168.50.1 (router providing both DNS and HTTP services).  
@@ -378,7 +378,7 @@ This step demonstrates how to stop the capture, save the HTTP + TCP traffic, and
 Saving captures allows network engineers to preserve evidence of the observed traffic, review handshake behavior, and re‑analyse issues later. It also enables sharing the capture with colleagues or attaching it to documentation when troubleshooting HTTP, TCP handshakes, or service errors. Captures provide clear visibility into packet‑level behavior and help verify whether the communication flow is correct.
 
 
-
+<br><br>
 ## **4.9 Conclusion**
 
 This chapter provides a structured view of how core protocols behave when filtered and analysed in Wireshark. ARP reveals local address-resolution activity, DNS shows standard and failed name-lookup patterns, and ICMP presents clear request-reply connectivity. UDP behaviour demonstrates repeated DNS retries without responses, while TCP and HTTP display a complete handshake and application exchange. Together, these captures build a consistent understanding of protocol structure, timing, and communication flow required for reliable network monitoring.
