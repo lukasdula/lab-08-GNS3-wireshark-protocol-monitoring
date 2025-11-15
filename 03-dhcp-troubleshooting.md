@@ -140,4 +140,4 @@ After resolving the issue, work can continue with chapter 4: **04-traffic-filter
 ---
 
 
-**Next part:**
+**Next part:** [Traffic Filtering and Analysis](04-traffic-filtering-and-analysis.md)
