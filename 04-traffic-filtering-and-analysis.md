@@ -9,9 +9,19 @@ This chapter explains how Wireshark displays and analyses each protocol when fil
 ![](images/Pasted%20image%2020251115234354.png)
 
 
-#### **Addressing Table**
+### Protocol Overview
 
-This overview lists the IP addresses used by all devices in this chapter. It helps maintain clarity during packet capture.
+| Protocol | Full Name                         | Meaning / Simple Explanation                                                           |
+| -------- | --------------------------------- | -------------------------------------------------------------------------------------- |
+| **ARP**  | Address Resolution Protocol       | Maps an IP address to a MAC address so devices can communicate inside the LAN.         |
+| **DNS**  | Domain Name System                | Translates domain names (e.g., test.lab) into IP addresses.                            |
+| **ICMP** | Internet Control Message Protocol | Used for connectivity testing (ping), error messages, and basic diagnostics.           |
+| **UDP**  | User Datagram Protocol            | Fast, lightweight transport without acknowledgments. Used by DNS and similar services. |
+| **TCP**  | Transmission Control Protocol     | Reliable transport with handshake, acknowledgments, and ordered delivery.              |
+| **HTTP** | Hypertext Transfer Protocol       | Web protocol for client–server communication (GET requests and responses).             |
+
+
+#### **Addressing Table**
 
 | **Device**     | **IP Address** |
 | -------------- | -------------- |
