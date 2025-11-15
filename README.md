@@ -8,7 +8,7 @@ This lab demonstrates practical protocol monitoring in a small network using Wir
 ![](images/Pasted%20image%2020251116000431.png)
 
 
-The objectives are:
+**The objectives are:**
 
 - Set up the LAN with DHCP, DNS, and HTTP services on the router.
     
