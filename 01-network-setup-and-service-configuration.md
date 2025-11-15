@@ -253,4 +253,4 @@ This chapter establishes the complete foundational setup of the lab environment.
 
 ---
 
-Next part: [Packet Capture and Protocol Observation](02-packet-capture-and-protocol-observation.md)
+**Next part:** [Packet Capture and Protocol Observation](02-packet-capture-and-protocol-observation.md)
