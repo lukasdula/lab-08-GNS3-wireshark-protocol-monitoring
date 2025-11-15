@@ -9,7 +9,7 @@ This chapter explains how Wireshark displays and analyses each protocol when fil
 ![](images/Pasted%20image%2020251115234354.png)
 
 
-### Protocol Overview
+### **Protocol Overview**
 
 | Protocol | Full Name                         | Meaning / Simple Explanation                                                           |
 | -------- | --------------------------------- | -------------------------------------------------------------------------------------- |
