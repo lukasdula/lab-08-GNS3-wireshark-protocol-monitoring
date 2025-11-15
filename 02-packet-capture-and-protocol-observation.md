@@ -31,7 +31,7 @@ Wireshark captures every packet that moves across the interface and shows it in 
 | Router (R1)    | 192.168.50.1  |
 
 
-
+<br><br>
 
 ## **2.2 Steps**
 
@@ -48,7 +48,7 @@ Wireshark captures every packet that moves across the interface and shows it in 
 6. See how TCP and HTTP packets appear when a webpage is opened.
     
 
-
+<br><br>
 
 ## **2.3 Full Packet View**
 
@@ -85,7 +85,7 @@ After starting Wireshark, a list of available network interfaces appears. Each i
 ![](images/Pasted%20image%2020251114030452.png)
 
 
-
+<br><br>
 
 ## **2.4 ARP Capture**
 
@@ -126,7 +126,7 @@ ARP replies appear immediately after the request. They confirm the MAC address o
 >**Notes.:** ARP does not depend on ping. It appears automatically whenever a device needs the MAC address of another device. Ping can trigger ARP if the MAC address is unknown, but ARP also appears during normal network activity such as DNS, DHCP, or opening web pages.
 
 
-
+<br><br>
 
 ## **2.5 DNS Capture (Xubuntu)**
 
@@ -158,7 +158,7 @@ After opening the test.lab page, DNS packets immediately appear in the capture. 
 > DNS packets are easy to identify in the Protocol column (DNS).
 
 
-
+<br><br>
 
 ## **2.6 ICMP Capture (Windows-client to Xubuntu-client)**
 
@@ -195,7 +195,7 @@ If ICMP traffic flows only between Windows-client and the router, it does not ap
 A SPAN (port mirroring) configuration can be used to mirror other ports to Xubuntu, but this often introduces unnecessary ARP and broadcast traffic, which makes the capture harder to read. For clarity, SPAN is not used in this chapter.
 
 
-
+<br><br>
 
 ## **2.7 UDP Capture**
 
@@ -226,7 +226,7 @@ Wireshark displays a DNS Query from Xubuntu to the router on UDP port 53, follow
 ![](images/Pasted%20image%2020251114031326.png)
 
 
-
+<br><br>
 
 ## **2.8 TCP and HTTP Capture (Webpage Request)**
 
@@ -255,7 +255,7 @@ Wireshark shows the TCP three-way handshake, followed by an HTTP GET request fro
 
 ![](images/Pasted%20image%2020251114033247.png)
 
-
+<br><br>
 
 ## **2.9 Conclusion** 
 
