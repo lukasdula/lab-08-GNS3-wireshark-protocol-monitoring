@@ -29,7 +29,7 @@ This chapter explains how Wireshark displays and analyses each protocol when fil
 | Windows-client | 192.168.50.11  |
 | Router (R1)    | 192.168.50.1   |
 
-
+<br><br>
 ## **4.2 Objectives**
 
 This chapter focuses on analysing protocol behaviour using Wireshark’s decoded protocol view and packet summary information.  
