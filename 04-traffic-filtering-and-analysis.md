@@ -184,7 +184,7 @@ icmp
 |Length|Shows ICMP frame size (typically around 74 bytes).|
 |Info|Displays whether the frame is an Echo Request or Echo Reply, including ID and sequence number.|
 
-### **Detailed Analysis**
+### **Detailed Packet Analysis**
 
 This section provides a clear and simplified explanation of the most important fields inside the selected ICMP frame (Frame 17). Only the values relevant to understanding the ping operation between the Windows and Xubuntu clients are included.
 
@@ -212,7 +212,7 @@ The ICMP capture reflects standard ping behavior between the **Windows client (1
 
 
 
-## **4.7 UDP Analysis**
+## **4.7 UDP Packet Analysis**
 
 This section demonstrates how DNS behaves when a **non‑existent domain name is queried**. By intentionally entering an invalid domain (**test.labb**) in the Xubuntu browser, we can observe how the client repeatedly sends DNS queries over UDP without receiving any response. This scenario provides a clear view of typical "no‑response" DNS behavior and how UDP‑based DNS retries appear inside Wireshark.
 
