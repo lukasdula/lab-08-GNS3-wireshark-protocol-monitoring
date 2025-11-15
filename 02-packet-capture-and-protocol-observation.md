@@ -264,4 +264,4 @@ This chapter shows how essential network protocols appear in live packet capture
 
 ---
 
-Next part:
+**Next part:** [DHCP Troubleshooting](03-dhcp-troubleshooting.md)
