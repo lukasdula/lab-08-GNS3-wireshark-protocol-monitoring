@@ -69,7 +69,7 @@ For each protocol, a display filter is applied and key structural fields are exa
 
 <br><br>
 
-# 4.4 ARP Analysis
+## 4.4 ARP Analysis
 
 
 This section focuses on observing ARP traffic filtered in Wireshark. The ARP display filter isolates only ARP frames, providing a clear overview of how devices announce themselves and resolve MAC addresses inside the local network.
