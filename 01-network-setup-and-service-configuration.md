@@ -17,6 +17,7 @@ This chapter describes the basic setup of a small LAN used for packet monitoring
 | Xubuntu-Client | Gi0/0     | SW1             | Gi0/3 (SW1)    | DHCP (192.168.50.10–192.168.50.20) | 255.255.255.0 | 192.168.50.1 |
 
 <br>
+
 ## **1.3 Steps**
 
 1. Configure the router interface to enable basic Layer 3 connectivity in the LAN.
