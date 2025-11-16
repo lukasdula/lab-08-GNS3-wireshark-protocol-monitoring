@@ -90,6 +90,9 @@ write memory
 ### **Results**
 
 HTTP service on R1 becomes active and responds to client requests. Clients can access the router's web page to generate HTTP traffic for analysis.
+
+
+
 <br><br>
 ## **1.6 Router Services - DNS Configuration**
 
