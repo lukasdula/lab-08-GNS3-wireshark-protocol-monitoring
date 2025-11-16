@@ -1,5 +1,7 @@
 # 2 - Packet Capture and Protocol Observation
 
+<br>
+
 ## **2.1 Introduction**
 
 Wireshark captures every packet that moves across the interface and shows it in real time. Each line represents one packet with the time it appears, the source, the destination, the protocol, and simple information about what the packet does. In this chapter, the capture runs without filters, so the user can see natural traffic such as ARP, DNS, ICMP, UDP, TCP, and HTTP. Basic actions like pinging between clients, pinging the router, or opening the test.lab page generate packets, and Wireshark displays them in the order they arrive. This introduction helps the user understand how common protocols appear during normal communication and how the network behaves when devices send or receive data.
