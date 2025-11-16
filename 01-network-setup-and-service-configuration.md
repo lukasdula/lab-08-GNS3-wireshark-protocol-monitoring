@@ -202,6 +202,9 @@ sudo apt update
 sudo apt install wireshark -y
 ```
 ![](images/Pasted%20image%2020251113025633.png)
+
+
+
 <br><br>
 
 ## **1.10 Full Connectivity Verification – Router, Xubuntu and Windows**
