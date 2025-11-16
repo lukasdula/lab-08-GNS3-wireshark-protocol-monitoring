@@ -1,5 +1,7 @@
 # **3 - Troubleshooting DHCP Failure on Xubuntu Client**
 
+<br>
+
 **Introduce:**
 
 This section identifies why the Xubuntu client did not receive an IPv4 address via DHCP and documents each diagnostic step used to locate and resolve the issue.
