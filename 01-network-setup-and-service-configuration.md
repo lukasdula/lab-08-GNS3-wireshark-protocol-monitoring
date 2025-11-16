@@ -1,5 +1,5 @@
 # **1 - Network Setup and Service Configuration**
-
+<br><br>
 
 ## **1.1 Introduction**
 
@@ -7,7 +7,7 @@ This chapter describes the basic setup of a small LAN used for packet monitoring
 
 ![](images/Pasted%20image%2020251113033345.png)
 
-
+<br><br>
 ## **1.2 Topology**
 
 | Device         | Interface | Connected to -> | Peer Interface | IP Address                         | Subnet Mask   | Gateway      |
@@ -16,7 +16,7 @@ This chapter describes the basic setup of a small LAN used for packet monitoring
 | Windows-Client | Ethernet0 | SW1             | Gi0/2 (SW1)    | DHCP (192.168.50.10–192.168.50.20) | 255.255.255.0 | 192.168.50.1 |
 | Xubuntu-Client | Gi0/0     | SW1             | Gi0/3 (SW1)    | DHCP (192.168.50.10–192.168.50.20) | 255.255.255.0 | 192.168.50.1 |
 
-
+<br><br>
 ## **1.3 Steps**
 
 1. Configure the router interface to enable basic Layer 3 connectivity in the LAN.
@@ -31,7 +31,7 @@ This chapter describes the basic setup of a small LAN used for packet monitoring
     
 6. Test basic client connectivity to generate initial ARP and ICMP traffic.
 
-
+<br><br>
 ## **1.4 Router Services - DHCP Configuration**
 
 
@@ -68,7 +68,7 @@ show ip dhcp pool
   ```
 ![](images/Pasted%20image%2020251113012738.png)
 
-
+<br><br>
 
 ## **1.5 Router Services - HTTP Configuration**
 
@@ -90,7 +90,7 @@ write memory
 ### **Results**
 
 HTTP service on R1 becomes active and responds to client requests. Clients can access the router's web page to generate HTTP traffic for analysis.
-
+<br><br>
 ## **1.6 Router Services - DNS Configuration**
 
 
@@ -112,7 +112,7 @@ write memory
 ### Results
 
 DNS service on R1 responds to client queries for the configured hostname. Clients can resolve the test domain name, allowing Wireshark to capture DNS request and response packets.
-
+<br><br>
 ## **1.7 Xubuntu DHCP, HTTP and DNS Verification**
 
 
@@ -148,7 +148,7 @@ The Xubuntu client receives an IP address from the configured DHCP range, confir
 
 
 This section verifies that the Xubuntu client can reach the HTTP service running on R1. 
-
+<br><br>
 #### R1 – HTTP Authentication Setup
 
 A local user account is created on R1 to allow browser access when HTTP authentication is required.
@@ -175,7 +175,7 @@ http://192.168.50.1
 ### Results
 
 The Xubuntu client successfully loads the router's default Cisco HTTP page, confirming that HTTP service on R1 is active and reachable from the LAN.
-
+<br><br>
 ## **1.8 Windows Client DNS Verification****
 
 
@@ -188,7 +188,7 @@ http://test.lab
 ![](images/Pasted%20image%2020251113023555.png)
 
 
-
+<br><br>
 
 ## **1.9 Xubuntu Client – Wireshark Installation**
 
@@ -199,7 +199,7 @@ sudo apt update
 sudo apt install wireshark -y
 ```
 ![](images/Pasted%20image%2020251113025633.png)
-
+<br><br>
 
 ## **1.10 Full Connectivity Verification – Router, Xubuntu and Windows**
 
@@ -245,7 +245,7 @@ ping 192.168.50.11
 
 All connectivity tests succeed. The pings confirm that every device in the network communicates correctly, and the entire topology operates as expected before packet capture begins.
 
-
+<br><br>
 
 ## **1.11 Conclusion**
 
